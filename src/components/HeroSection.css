@@ -1,0 +1,58 @@
+/* Estilos para la Sección Hero */
+#hero {
+    background-color: #f8f8f8; /* Color de fondo de la sección, ajusta según tu esquema de color */
+    padding: 80px 20px; /* Ajusta según sea necesario */
+    text-align: center;
+    width: auto;
+  }
+  
+  /* Estilos para el Contenido de Hero */
+  .hero-content {
+    max-width: 800px; /* Ajusta según sea necesario */
+    margin: 0 auto; /* Centra el contenido */
+  }
+  
+  .hero-content h1 {
+    font-size: 36px; /* Ajusta según sea necesario */
+    margin-bottom: 20px; /* Ajusta según sea necesario */
+  }
+
+  
+  
+  
+  .hero-content p {
+    font-size: 18px; /* Ajusta según sea necesario */
+    color: #666; /* Ajusta según tu esquema de color */
+    margin-bottom: 30px; /* Ajusta según sea necesario */
+  }
+  
+  .hero-content button {
+    background-color: #fbff00; /* Color de fondo del botón, ajusta según tu esquema de color */
+    color: #ff0000; /* Color del texto del botón, ajusta según tu esquema de color */
+    padding: 15px 30px; /* Ajusta según sea necesario */
+    font-size: 18px; /* Ajusta según sea necesario */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-content button:hover {
+    background-color: #09ff00; /* Color de fondo del botón al pasar el ratón, ajusta según tu esquema de color */
+  }
+
+  .hero-video-container{
+display: flex;
+align-items: center;
+width: 100%;
+  }
+  
+
+  .hero-video-container video {
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+  }
+
+
+  

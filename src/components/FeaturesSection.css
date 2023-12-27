@@ -1,0 +1,49 @@
+/* FeaturesSection.css */
+
+.feature-container {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+flex-direction: column;
+gap: 10px;
+  }
+  
+  .feature {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    border: 1px solid #fe0000;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #00b8e1;
+    transition: transform 0.3s ease-in-out;
+    height: 200px;
+  }
+  
+  section:hover {
+    transform: scale(1.05);
+  }
+  
+ .feature h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .feature h2 {
+    font-size: 1.3em;
+    color: #333;
+
+  }
+  
+  .feature p {
+    color: #666;
+    margin: 0px;
+  }
+  

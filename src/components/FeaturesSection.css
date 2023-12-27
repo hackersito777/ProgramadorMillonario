@@ -1,49 +1,52 @@
 /* FeaturesSection.css */
 
 .feature-container {
-display: flex;
-align-items: center;
-justify-content: center;
-width: 100%;
-flex-direction: column;
-gap: 10px;
-  }
-  
-  .feature {
-    width: 300px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-    border: 1px solid #fe0000;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #00b8e1;
-    transition: transform 0.3s ease-in-out;
-    height: 200px;
-  }
-  
-  section:hover {
-    transform: scale(1.05);
-  }
-  
- .feature h1 {
-    font-size: 2em;
-    color: #333;
-    text-align: center;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
 
-  }
-  
-  .feature h2 {
-    font-size: 1.3em;
-    color: #333;
+.feature {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #fe0000;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #00b8e1;
+  transition: transform 0.3s ease-in-out;
+  height: 200px;
+}
 
-  }
-  
-  .feature p {
-    color: #666;
-    margin: 0px;
-  }
-  
+.feature:hover {
+  transform: scale(1.05);
+}
+
+.feature h1 {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px; /* Reducido el margen inferior */
+  margin-top: 10px; /* Agregado margen superior */
+}
+
+.feature h2 {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 50px;
+  margin-top: 20px; /* Agregado margen inferior */
+}
+
+.feature p {
+  color: #666;
+  margin-top: 20px;/* Eliminado el margen para que el texto esté más cerca del borde inferior */
+}
+
+.feature-container:hover {
+  transform: translateY(5px); /* Efecto de desplazamiento hacia abajo al hacer hover en toda la sección */
+}

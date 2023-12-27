@@ -6,7 +6,7 @@ const Featuresdiv = () => {
     
     <div id='caracteristicas' className='feature-container'>
 
-    <h1> Caracteristicas Clave</h1>
+    <h1> Caracteristicas</h1>
     <div className="feature">
         <h2>Aprendizaje Completo:</h2>
         <p>Guía pasito a pasito programador millonario. 💻💰</p>

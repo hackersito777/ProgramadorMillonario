@@ -6,10 +6,10 @@ import bonus2 from "./bonus2.jpg";
 import bonus3 from "./bonus3.jpg";
 
 const CTASection = () => {
-  const phoneNumber = '573187055383';
+  
 
   const generateWhatsAppLink = () => {
-    window.location.href = `https://wa.me/${phoneNumber}`;
+    window.location.href = 'https://t.me/ProgramadorMillonary';
   };
 
   return (

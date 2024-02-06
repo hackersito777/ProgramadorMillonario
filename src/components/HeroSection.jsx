@@ -3,10 +3,10 @@ import React from 'react';
 import './HeroSection.css';
 
 const HeroSection = () => {
-  const phoneNumber = '573187055383';
+  
 
   const generateWhatsAppLink = () => {
-    location.href = `https://wa.me/${phoneNumber}`;
+    location.href = 'https://t.me/ProgramadorMillonary';
   };
 
   return (
